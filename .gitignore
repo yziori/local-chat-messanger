@@ -1,0 +1,37 @@
+# バイナリファイル
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Goのビルド出力ディレクトリ
+bin/
+pkg/
+
+# プロジェクトのビルド成果物
+client/main
+server/main
+
+# 依存関係のディレクトリ
+vendor/
+
+# IDEおよびエディタ関連ファイル
+.vscode/
+.idea/
+*.swp
+
+# 一時ファイル
+*.tmp
+*.log
+*.out
+*.aux
+
+# OS固有のファイル
+.DS_Store
+Thumbs.db
+
+# モジュールキャッシュ（オプションで無視することも可能）
+/go.sum
+
+# その他の無視したいファイルやディレクトリ
+# ここに追加してください
